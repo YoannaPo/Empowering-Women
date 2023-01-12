@@ -1,6 +1,14 @@
 
 # Empowering Women-Layout
->  Layout created using Tailwind CSS3 for Organisation Empowering Women in Tech.  
+>  Layout created using Tailwind CSS3 for Organisation Empowering Women in Tech. 
+<p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png" width="60px" alt="Tailwind CSS">
+</p>
+
+<div>
+_🏋️ Learn and practice building layouts with [Tailwind CSS](https://tailwindcss.com/) —— a utility-first CSS framework._
+
+</div> 
 
 ## Table of contents
 * [Process](#process)
