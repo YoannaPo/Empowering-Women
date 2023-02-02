@@ -1,13 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMW App</title>
+</head>
+
+<body>
+  <header class="bg-hero-pattern bg-cover bg-no-repeat flex justify-center h-96 drop-shadow-lg">
+    <!--Navbar-->
+    <div class="absolute container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <!-- Icons form https://iconsvg.xyz/ -->
+          <span class="ml-3 text-xl">EMW</span>
+        </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 text-white hover:text-gray-900">Home</a>
+        <a class="mr-5 text-white hover:text-gray-900">About</a>
+        <a class="mr-5 text-white hover:text-gray-900">Our Project</a>
+        <a class="mr-5 text-white hover:text-gray-900">Contact</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Media
+        Kit
+
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+      <div
+        class="container my-5 md:my-15 lg:my-20 flex p-5 flex-col flex-wrap items-center text-base justify-center h-50">
+        <h1 class="text-white text-3xl flex justify-center font-bold lg:my-5">Community Knowledge Base</h1>
+        <p class="text-white text-base mb-5">Tap into the wisdom of our community on all topics, personal and
+          professional.
+        </p>
+        <button
+          class="inline-flex items-center justify-center bg-violet-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 sm:my-2">Explore
+          more
+        </button>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+    <!-- Navbar -->
+
+    <!--<div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"> -->
+    <!-- <div id="app" class=""></div>
+  
+      <div class="max-w-4xl px-5 mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+  
+        <h1 class="text-7xl font-bold text-purple-900">Headline</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi explicabo repudiandae, velit nemo
+          nesciunt iusto? Similique molestiae sint at, ipsa ullam quo rerum, in nihil, omnis inventore cum pariatur.</P>
+      </div> 
+      </div>-->
+    <span class="shadow-md"></span>
+  </header>
+  <div class="my-0 px-0 mx-auto">
+    <!--<div class="container my-0 px-0 mx-auto bg-blue-700"> -->
+    <section class="mb-32 bg-pink-600">
+
+      <div class="flex flex-row flex-wrap">
+        <div
+          class="container mx-auto grow-0 shrink-0 basis-auto w-full mb-12 lg:mb-0 bg-pink-600 rounded-lg md:rounded-none py-8 md:py-10 lg:py-12 drop-shadow-lg">
+          <div class="flex flex-row items-center text-base justify-center">
+            <p class="text-white text-1xl font-bold m-5 text-center">“Recognize and embrace your
+              uniqueness... Being a
+              Black woman, being a woman in general, on a team of all
+              men,
+              means that you are going to have a unique voice. <br>It’s important to embrace that.” Erin Teague</p>
+          </div>
+
+          <!--<div class="flex flex-row sm:flex-col"> -->
+          <div class="flex flex-col md:flex-row items-center justify-center">
+            <div>
+              <span class="flex items-center justify-center mb-4 mt-4 md:mb-2 lg:mb-0 mx-auto md:mx-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </span>
+              <p class="text-white text-base text-center mt-5">Cras tempor convallis magna id rhoncus.
+                Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor</p>
+            </div>
+
+            <div>
+              <span class="flex items-center justify-center mb-4 mt-4 md:mb-2 lg:mb-0 mx-auto md:mx-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                </span>
+              <p class="text-white text-base text-center mt-5">Cras tempor convallis magna id rhoncus.
+                Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor</p>
+            </div>
+            <div>
+              <span class="flex items-center justify-center mb-4 mt-4 md:mb-2 lg:mb-0 mx-auto md:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                </span>
+              <p class="text-white text-base text-center mt-5">Cras tempor convallis magna id rhoncus.
+                Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container my-24 px-6 mx-auto">
+
+    <!-- Section: Design Block -->
+    <section class="mb-32">
+      <style>
+        @media (min-width: 992px) {
+          #cta-img-nml-50 {
+            margin-left: 50px;
+          }
+        }
+      </style>
+
+      <div class="flex flex-wrap">
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 static md:relative">
+          <div class="flex lg:py-12">
+            <img src="https://i.ibb.co/TrJBtf6/david-travis-WC6-MJ0k-Rz-Gw-unsplash-1.jpg"
+              class="w-full static md:absolute rounded-lg drop-shadow-lg" id="cta-img-nml-50" style="z-index:10"
+              alt="" />
+          </div>
+        </div>
+
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+          <div class="bg-pink-500 h-full rounded-lg p-6 lg:pl-12 text-white flex items-center text-center lg:text-left">
+            <div class="lg:pl-12">
+              <h2 class="text-3xl font-bold mb-6">Let it surprise you</h2>
+              <p class="mb-6 pb-2 lg:pb-0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, sint, repellat
+                vel quo quisquam accusamus in qui at ipsa enim quibusdam illo laboriosam omnis.
+                Labore itaque illum distinctio eum neque!
+              </p>
+
+              <div class="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
+                <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                  Best team
+                </p>
+
+                <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                  Best quality
+                </p>
+
+                <p class="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                  Best experience
+                </p>
+              </div>
+
+              <p>
+                Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet
+                rutrum enim massa in ante. Curabitur in justo at lorem laoreet ultricies. Nunc
+                ligula felis, sagittis eget nisi vitae, sodales vestibulum purus. Vestibulum nibh
+                ipsum, rhoncus vel sagittis nec, placerat vel justo. Duis faucibus sapien eget
+                tortor finibus, a eleifend lectus dictum. Cras tempor convallis magna id rhoncus.
+                Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor lorem at neque
+                tempus aliquet. Phasellus at ex volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed
+                iaculis est vehicula ut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+
+  </div>
+  <div class="container my-24 px-6 mx-auto">
+
+    <!-- Section: Design Block -->
+    <section class="mb-14">
+      <div class="flex flex-wrap justify-center">
+
+
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+          <div
+            class="bg-white h-full rounded-lg p-6 lg:pl-12 flex items-center text-center  text-base justify-center h-50">
+            <div class="lg:pl-12">
+              <h3 class="text-1xl font-medium text-pink-600 mb-6">OUR ORGANIZATION MISSION</h3>
+              <h2 class="text-3xl font-bold mb-6">The different help for growing up your business</h2>
+              <p class="mb-6 text-center pb-2 lg:pb-0">
+                Maxime, sint, repellat
+                vel quo quisquam accusamus in qui at ipsa enim quibusdam illo laboriosam omnis.
+                Labore itaque illum distinctio eum neque! Nam mattis faucibus imperdiet. Proin tempor lorem at neque
+                tempus aliquet. Phasellus at ex volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed
+                iaculis est vehicula ut.
+              </p>
+              <button
+                class="inline-flex items-center justify-center bg-violet-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 sm:my-2">Explore
+                more
+              </button>
+              <button
+                class="inline-flex items-center justify-center bg-violet-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 sm:my-2">Our
+                Projects
+
+              </button>
+              <h3 class="text-1xl font-medium text-pink-600 mt-20 mb-6">THE BEST OPPORTUNITY</h3>
+              <h2 class="text-3xl font-bold mb-6">We bring the best things for your development</h2>
+
+
+              <div class="flex flex-col md:flex-row justify-center mb-6 mx-auto">
+                <!-- md:justify-around xl:justify-start-->
+                <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20 text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                  Best approach
+                </p>
+
+                <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20 text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                  Best example
+                </p>
+
+                <p class="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 mr-2">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                  Best solution
+                </p>
+              </div>
+
+              <p>
+                Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet
+                rutrum enim massa in ante. Curabitur in justo at lorem laoreet ultricies. Nunc
+                ligula felis, sagittis eget nisi vitae, sodales vestibulum purus. Vestibulum nibh
+                ipsum, rhoncus vel sagittis nec, placerat vel justo. Duis faucibus sapien eget
+                tortor finibus, a eleifend lectus dictum. Cras tempor convallis magna id rhoncus.
+                Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor lorem at neque
+                tempus aliquet. Phasellus at ex volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed
+                iaculis est vehicula ut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section: Design Block -->
+    <section class="mb-32">
+      <div class="flex w-screen flex flex-col items-center justify-center">
+        <div
+          class="w-full flex mt-5 snap-x snap-mandatory overflow-x-auto flex-col lg:flex-row md:flex-wrap justify-center mx-auto">
+          <div
+            class="group dark:bg-trueGrey-100 dark:border-indigo-300 shadow-2xl scale-90 hover:scale-100 hover:shadow-2xl hover:border-3 hover:border-red-500 transition ease-in-out duration-500 border my-2 border-gray-200 rounded-2xl flex flex-col  sm:w-1/2">
+            <div class="flex-1 w-[300px] drop-shadow-lg">
+
+              <div
+                class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center bg-pink-50 rounded-t-2xl mt-5 mb-5 ml-5">
+                <img
+                  class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center  rounded-t-2xl mt-5 mb-5"
+                  src="https://i.ibb.co/FHYkVp4/personal-approach.png" alt="globe">
+                <!--src="../public/personal-approach.png" alt="globe"-->
+              </div>
+
+              <h3 class="dark:text-pink-700 px-4 text-lg mt-3 mb-2 font-black text-gray-700 tracking-tight text-center"
+                x-text="item.name">Personal Approach</h3>
+              <p class="dark:text-gray-700 px-4 text-base text-center font-light text-gray-500" x-text="item.bio">
+                Phasellus at ex
+                volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus.</p>
+            </div>
+            <a href="#" class="inline-block mx-auto bg-indigo-500 text-white hover:bg-indigo-600 my-3 block py-3 px-6 border border-transparent rounded-md text-center font-medium">More Info</a>
+          </div>
+
+          <div
+            class="group dark:bg-trueGrey-100 dark:border-indigo-300 shadow-2xl scale-90 hover:scale-100 hover:shadow-2xl hover:border-3 hover:border-red-500 transition ease-in-out duration-500 border my-2 border-gray-200 rounded-2xl flex flex-col  sm:w-1/2">
+            <div class="flex-1 w-[300px] drop-shadow-lg">
+
+              <div
+                class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center bg-pink-50 rounded-t-2xl mt-5 mb-5 ml-5">
+                <img
+                  class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center  rounded-t-2xl mt-5 mb-5"
+                  src="https://i.ibb.co/SXVnPsd/career-advice.png" alt="rocket">
+                <!--src="../public/personal-approach.png" alt="globe"-->
+              </div>
+
+              <h3 class="dark:text-pink-700 px-4 text-lg mt-3 mb-2 font-black text-gray-700 tracking-tight text-center"
+                x-text="item.name">Career Advice</h3>
+              <p class="dark:text-gray-700 px-4 text-base text-center font-light text-gray-500" x-text="item.bio">
+                Phasellus at ex
+                volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus.</p>
+            </div>
+            <a href="#" class="inline-block mx-auto bg-indigo-500 text-white hover:bg-indigo-600 my-3 block py-3 px-6 border border-transparent rounded-md text-center font-medium">More Info</a>
+          </div>
+
+
+          <div
+            class="group dark:bg-trueGrey-100 dark:border-indigo-300 shadow-2xl scale-90 hover:scale-100 hover:shadow-2xl hover:border-3 hover:border-red-500 transition ease-in-out duration-500 border my-2 border-gray-200 rounded-2xl flex flex-col  sm:w-1/2">
+            <div class="flex-1 w-[300px] drop-shadow-lg">
+
+              <div
+                class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center bg-pink-50 rounded-t-2xl mt-5 mb-5 ml-5">
+                <img
+                  class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center  rounded-t-2xl mt-5 mb-5"
+                  src="https://i.ibb.co/txkqrXb/business-consulting.png" alt="briefcase">
+              </div>
+
+              <h3 class="dark:text-pink-700 px-4 text-lg mt-3 mb-2 font-black text-gray-700 tracking-tight text-center"
+                x-text="item.name">Business Consulting</h3>
+              <p class="dark:text-gray-700 px-4 text-base text-center font-light text-gray-500" x-text="item.bio">
+                Phasellus at ex
+                volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus.</p>
+            </div>
+            <a href="#" class="inline-block mx-auto bg-indigo-500 text-white hover:bg-indigo-600 my-3 block py-3 px-6 border border-transparent rounded-md text-center font-medium">More Info</a>
+          </div>
+
+
+          <div
+            class="group dark:bg-trueGrey-100 dark:border-indigo-300 shadow-2xl scale-90 hover:scale-100 hover:shadow-2xl hover:border-3 hover:border-red-500 transition ease-in-out duration-500 border my-2 border-gray-200 rounded-2xl flex flex-col  sm:w-1/2">
+            <div class="flex-1 w-[300px] drop-shadow-lg">
+
+              <div
+                class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center bg-pink-50 rounded-t-2xl mt-5 mb-5 ml-5">
+                <img
+                  class="opacity-[.5] group-hover:opacity-100 h-14 w-14 inline-flex items-center justify-center  rounded-t-2xl mt-5 mb-5"
+                  src="https://i.ibb.co/m4q02gT/icon-helping-hand.png" alt="molecules">
+
+              </div>
+
+              <h3 class="dark:text-pink-700 px-4 text-lg mt-3 mb-2 font-black text-gray-700 tracking-tight text-center"
+                x-text="item.name">Helping Hand</h3>
+              <p class="dark:text-gray-700 px-4 text-base text-center font-light text-gray-500" x-text="item.bio">
+                Phasellus at ex
+                volutpat, varius arcu id, aliquam lectus.
+                Vestibulum mattis felis quis ex pharetra luctus.</p>
+            </div>
+            <a href="#" class="inline-block mx-auto bg-indigo-500 text-white hover:bg-indigo-600 my-3 block py-3 px-6 border border-transparent rounded-md text-center font-medium">More Info</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <section class="bg-section-pattern bg-cover bg-no-repeat flex justify-center h-96 drop-shadow-lg">
+
+    <!--Form-->
+    <div class="absolute container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+      <div
+        class="container my-5 md:my-10 lg:my-20 flex p-5 flex-col flex-wrap items-center text-base justify-center h-50">
+        <h1 class="text-white text-3xl flex justify-center font-bold lg:my-5 sm:mb-5">Community Taught</h1>
+        <p class="text-white text-base">Empowering women to become tech leaders and to make positive social change
+          and innovation in the local community.
+        </p>
+        <p class="text-white text-base mb-5">Tell us your email and we will let you know when applications open again!
+        </p>
+        <form>
+          <div class="form-group mb-6">
+            <label for="firstname" class="text-md text-white mr-0 md:mr-5">Name</label>
+            <input type="text" name="firstname" id="firstname" />
+          </div>
+
+          <div class="form-group mb-6">
+            <label for="mail" class="text-md text-white mr-0 md:mr-5">E-mail</label>
+            <input type="text" name="mail" id="mail" />
+          </div>
+
+          <button
+            class="inline-flex items-center justify-center bg-violet-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">Send
+            To Us
+          </button>
+      </div>
+
+
+
+
+
+    </div>
+
+    <span class="shadow-md"></span>
+  </section>
+
+
+  <!--Footer-->
+  <footer class="bg-no-repeat flex justify-center h-52 bg-stone-900">
+    <!-- <div class="absolute container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"> -->
+    <div class="absolute container mx-auto flex flex-wrap p-5 flex-row md:flex-col place-content-evenly">
+      <ul class="flex flex-row flex-wrap place-content-evenly">
+        <li class="flex flex-col mr-0 md:mr-20">
+          <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg> -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <!-- Icons form https://iconsvg.xyz/ -->
+              <span class="ml-3 text-xl text-white">EMW</span>
+            </a>
+          <p class="text-white text-base text-sm tracking-wider underline decoration-1 font-thin my-5">BUSINESS ADRESS
+          </p>
+          <address class="text-white text-base flex-col mr-5">London Cambridge Street, </br>016 United Kingdom</address>
+
+        </li>
+        <li class="flex flex-col mr-0 md:mr-20">
+          <p class="text-white text-base text-sm tracking-wider font-thin ml-5">TWITTER FEED</p>
+          <div class="flex flex-row justify-center"><img width="24" height="24"
+              src="https://i.ibb.co/88QKyTD/twitter-24.png" class="ml-5 mt-5" alt="bird">
+            <P class="text-white text-base ml-2 mt-5 ">Liquam lectus.</P>
+          </div>
+
+          </br>
+          <p class="text-white text-base ml-5"> Mattis felis </br>quis ex pharetra luctus.</P>
+        </li>
+        <li class="flex flex-col">
+          <p class="text-white text-base text-sm tracking-wider font-thin ml-5">OPENING HOURS</p>
+          <P class="text-white text-base m-5">09.00 - 17.00
+            </br>Monday-Friday</P>
+
+        </li>
+        <li></li>
+
+      </ul>
+
+
+
+
+    </div>
+  </footer>
+
+
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
