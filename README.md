@@ -12,7 +12,6 @@ _🏋️ Learn and practice building layouts with [Tailwind CSS](https://tailwin
 
 ## Table of contents
 * [Process](#process)
-* [General info](#general-info)
 * [Technologies](#technologies)
 * [My Top 5 Advantages of Using Tailwind CSS](#my-top-5-advantages-of-using-tailwind-css)
 * [Status](#status)
@@ -45,6 +44,3 @@ Project is:  _in_progress_
 ## Lessons Learned
 - How to configure Tailwind, Vite, JSON files
 - Tailwind file structure
-
-
-## General info
