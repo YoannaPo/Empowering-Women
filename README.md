@@ -21,7 +21,7 @@ _🏋️ Learn and practice building layouts with [Tailwind CSS](https://tailwin
 
 ## Process 
 Created design using Figma and then fully responsive layout with Tailwind CSS3.
-![alt="empowering women layout"]https://github.com/YoannaPo/Empowering-Women/blob/main/assets/EMW.gif
+![alt="empowering women layout"](https://github.com/YoannaPo/Empowering-Women/blob/main/assets/EMW.gif)
 
 
 ## Technologies
@@ -45,3 +45,7 @@ Project is:  _in_progress_
 ## Lessons Learned
 - How to configure Tailwind, Vite, JSON files
 - Tailwind file structure
+
+## Room for Improvement
+- Increase the contrast between the font and the background
+- Improve accessibility for screen readers
