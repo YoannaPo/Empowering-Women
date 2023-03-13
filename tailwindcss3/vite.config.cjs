@@ -2,7 +2,10 @@
 export default {
     root: 'src',
     publicDir: 'public',
-    outDir: '../docs',
+    //outDir: '../docs',
+    build: {
+        outDir: '../dist'
+      },
     server: {
         open: true
     }
