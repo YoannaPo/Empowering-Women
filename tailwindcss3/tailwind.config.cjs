@@ -22,8 +22,10 @@ module.exports = {
   },
   plugins: [],
 
-  purge: [
+  purge: [  
     "./src/components/**/*.{js,jsx}",
     "./index.html",
-  ]
+    ],
+  
+ 
 }
