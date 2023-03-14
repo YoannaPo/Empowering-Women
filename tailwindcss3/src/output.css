@@ -1117,11 +1117,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.test1 {
-  color: rgb(43, 226, 104);
-  background-color: aqua;
-}
-
 .hover\:scale-100:hover {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
