@@ -41,6 +41,7 @@ Created design using Figma and then fully responsive layout with Tailwind CSS3.
 Project is:  _in_progress_
 
 ## Live
+https://empowering-women-layout.netlify.app/
 
 ## Lessons Learned
 - How to configure Tailwind, Vite, JSON files
